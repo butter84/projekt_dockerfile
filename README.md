@@ -12,7 +12,7 @@ Dieses Miniprojekt wird mit Ngix gemacht um eine Webseite einzurichten
 
 ### 1 Repository klonen
 ```sh
-git clone [https://github.com/Yat008/M169/](https://github.com/butter84/projekt_dockerfile)
+git clone [https://github.com/butter84/projekt_dockerfile]
 cd projekt_dockerfile
 ```
 
