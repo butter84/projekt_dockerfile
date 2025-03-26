@@ -16,8 +16,7 @@ git clone [https://github.com/butter84/projekt_dockerfile]
 cd projekt_dockerfile
 ```
 
-### 2 Projektstruktur
-Stellen Sie sicher, dass Ihr Verzeichnis wie folgt aussieht:
+### 2 Ordnerstruktur
 ```
 projekt_dockerfile/
 │── Dockerfile
