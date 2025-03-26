@@ -21,10 +21,9 @@ Stellen Sie sicher, dass Ihr Verzeichnis wie folgt aussieht:
 ```
 projekt_dockerfile/
 │── Dockerfile
-│── website/
+│── Website/
 │   ├── index.html
-│   ├── styles.css
-│── logs/   (dieses Verzeichnis speichert Logs)
+│── logs/   
 │── README.md
 ```
 
@@ -50,7 +49,7 @@ docker build -t my-webserver .
 #### 2. Container starten:
 ```sh
 docker run -d -p 8080:80 \
-    -v $(pwd)/website:/usr/share/nginx/html \
+    -v $(pwd)/Website:/usr/share/nginx/html \
     -v $(pwd)/logs:/var/log/nginx \
     --name my-webserver my-webserver
 ```
