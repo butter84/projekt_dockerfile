@@ -12,14 +12,14 @@ Dieses Miniprojekt wird mit Ngix gemacht um eine Webseite einzurichten
 
 ### 1 Repository klonen
 ```sh
-git clone https://github.com/Yat008/M169/
-cd M169
+git clone [https://github.com/Yat008/M169/](https://github.com/butter84/projekt_dockerfile)
+cd projekt_dockerfile
 ```
 
 ### 2 Projektstruktur
 Stellen Sie sicher, dass Ihr Verzeichnis wie folgt aussieht:
 ```
-M169/
+projekt_dockerfile/
 │── Dockerfile
 │── website/
 │   ├── index.html
@@ -77,5 +77,4 @@ docker rm my-webserver
 
 ---
 
-## Fazit
-Dieses Setup stellt eine **NGINX-Webserver-Umgebung** innerhalb eines **Docker-Containers** bereit, um eine statische Webseite zu hosten. Viel Erfolg! 🚀
+
