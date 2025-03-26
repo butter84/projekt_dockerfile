@@ -26,7 +26,7 @@ projekt_dockerfile/
 │── README.md
 ```
 
-**Hinweis:** Git erlaubt keine leeren Ordner. Um `logs/` im Repository zu behalten, fügen Sie eine leere `.gitkeep`-Datei hinzu:
+**Hinweis:** Git erlaubt keine leeren Ordner. Um `logs/` im Repository zu behalten, füge eine leere Datei hinzu.
 ```sh
 touch logs/.gitkeep
 ```
